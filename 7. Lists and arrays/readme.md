@@ -99,6 +99,8 @@ foreach (Person p in people)
 {
     Console.WriteLine(p.Name + " is " + p.Age);
 }
+```
+
 
 | Situation | Use |
 |---|---|
