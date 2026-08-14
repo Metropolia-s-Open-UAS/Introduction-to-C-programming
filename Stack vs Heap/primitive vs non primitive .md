@@ -1,6 +1,6 @@
-# Primitive vs Non-Primitive Types in C#
+#### Primitive vs Non-Primitive Types in C#
 
-## 1. Core Definitions
+#### 1. Core Definitions
 
 | Aspect | Primitive Types | Non-Primitive Types |
 |---|---|---|
@@ -12,7 +12,7 @@
 
 > **Note:** "Primitive type" isn't an official C# language term (C# spec calls them "simple types"), but it's commonly used this way in teaching/interviews, contrasted with "non-primitive" (arrays, classes, strings, etc.).
 
-## 2. Primitive Types in C#
+#### 2. Primitive Types in C#
 
 | Category | Types |
 |---|---|
@@ -29,7 +29,7 @@ bool isActive = true;
 char grade = 'A';
 ```
 
-## 3. Non-Primitive Types in C#
+#### 3. Non-Primitive Types in C#
 
 | Category | Types/Examples |
 |---|---|
@@ -47,7 +47,7 @@ class Car { public string Model; }
 Car myCar = new Car();
 ```
 
-## 4. Key Behavioral Differences
+#### 4. Key Behavioral Differences
 
 | Aspect | Primitive | Non-Primitive |
 |---|---|---|
@@ -58,7 +58,7 @@ Car myCar = new Car();
 | Has built-in operators (`+`, `-`, etc.) | Yes, natively supported | Only if explicitly overloaded (operator overloading) |
 | Defined by | .NET runtime/CLR itself | The class library or your own code |
 
-## 5. Important Edge Cases
+#### 5. Important Edge Cases
 
 | Type | Primitive or Non-Primitive? | Why |
 |---|---|---|
@@ -68,7 +68,7 @@ Car myCar = new Car();
 | `object` | Non-primitive | Base type for everything, but not itself a "basic" building-block type |
 | `decimal` | Primitive | Simple type in the C# spec, despite being 128-bit and more complex internally |
 
-## 6. Quick Summary Table
+#### 6. Quick Summary Table
 
 | | Primitive | Non-Primitive |
 |---|---|---|
@@ -77,4 +77,3 @@ Car myCar = new Car();
 | Storage | Stack | Heap (mostly) |
 | Complexity | Single value | Composed of multiple values/behaviors |
 
-If you're studying this for a specific exercise (e.g., classifying a list of types, or building a custom non-primitive type), share the details and I can help work through it directly.
